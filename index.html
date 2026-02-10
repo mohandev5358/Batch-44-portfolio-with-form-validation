@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="icon" type="image/png" href="images/favicon.png" sizes="16x16">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <img src="images/logo.png" alt="Portfolio Logo" />
+            </div>
+            <div id="title">
+                <h1>Mohan Raj . P</h1>
+                <h3>Web Developer | . Net Developer</h3>
+                <nav>
+                    <a href="index.html"> Home</a>
+                    <a href="#about">About Me</a>
+                    <a href="#project-section">Projects</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <hr>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I am a passionate and
+                detail-oriented Laravel / PHP Developer with 1.5+ years of professional experience in designing,
+                developing, and maintaining dynamic web applications. I specialize in building clean, scalable, and
+                efficient backend systems using Laravel, PHP, and MySQL, along with modern front-end technologies like
+                HTML, CSS, and JavaScript.<br>
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I have hands-on experience in
+                developing real-time production websites, including a fully functional matrimony platform with features
+                such as user registration, profile management, advanced search, and responsive UI design. I follow MVC
+                architecture principles and write clean, maintainable, and reusable code.<br>
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Previously, I worked as a Junior
+                Software Developer on a healthcare financial management web application, where I gained strong
+                experience in database management, auditing processes, payment transactions, debugging, and unit
+                testing.<br>
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I am a quick learner, team
+                player, and problem solver who enjoys exploring new technologies and continuously improving development
+                skills. My goal is to build high-quality, user-friendly, and performance-optimized web applications that
+                create real-world impact..</p>
+        </section>
+
+        <section id="project-section">
+            <h2>Projects</h2>
+            <hr>
+            <div class="projects">
+                <div class="project-card">
+                    <h3>Matrimony Website</h3>
+                    <hr>
+                    <p>A fully functional matrimony platform with user registration, profile management, advanced
+                        search, and responsive UI design. Built using Laravel, PHP, MySQL, HTML, CSS, and JavaScript.
+                    </p>
+                    <button><a href="project-1.html" target="_blank">Read More</a></button>
+                </div>
+                <div class="project-card">
+                    <h3>Healthcare Financial Management System</h3>
+                    <hr>
+                    <p>A web application for managing healthcare financial processes, including auditing and payment
+                        transactions. Developed using Laravel, PHP, and MySQL.</p>
+                    <button><a href="project-2.html">Read More</a></button>
+                </div>
+                <div class="project-card">
+                    <h3>E-Commerce Website</h3>
+                    <hr>
+                    <p>A fully functional e-commerce platform with product management, user authentication, cart
+                        functionality, and secure payment processing. Built using Laravel, PHP, MySQL, HTML, CSS, and
+                        JavaScript.</p>
+                    <button><a href="project-3.html" target="_blank">Read More</a></button>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <hr>
+            <table class="skills-table">
+                <tr>
+                    <td>Laravel</td>
+                    <td>PHP</td>
+                    <td>MySQL</td>
+                </tr>
+                <tr>
+                    <td>HTML5</td>
+                    <td>CSS3</td>
+                    <td>JavaScript</td>
+                </tr>
+                <tr>
+                    <td>Bootstrap</td>
+                    <td>jQuery</td>
+                    <td>Git & GitHub</td>
+                </tr>
+                <tr>
+                    <td>REST API</td>
+                    <td>MVC Architecture</td>
+                    <td>Basic .NET</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <hr>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <label for="gender">Gender</label>
+                <select id="gender" name="gender" required>
+                    <option value="">Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="phone">Phone no</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" pattern="\d{10}" title="Enter 10 numbers" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address"   pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$" title="Enter a valid email address" required>
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" max="100" placeholder="Enter subject" required> 
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+                <div style="text-align:center; margin-top:10px;">
+                    <button style="width: 200px;" type="submit">Send Message</button>
+                </div>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-box">
+                <img src="images/logo.png" alt="Portfolio Logo" />
+                <p>
+                    <strong>Mohan Raj P</strong><br>
+                    Web Developer | .NET Developer
+                </p>
+            </div>
+            <div class="footer-box">
+                <h4>Quick Links</h4>
+                <a href="index.html">Home</a>
+                <a href="#about">About</a>
+                <a href="#project-section">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-box">
+                <h4>Connect</h4>
+                <a href="https://www.linkedin.com/in/mohan-raj-p-123456789/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/mohanraj-p" target="_blank">GitHub</a>
+                <a href="mailto:mohanpmp129@gmail.com">Email</a>
+            </div>
+            <div class="footer-box">
+                <h4>Location</h4>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d450.3809623692074!2d78.71395170323052!3d10.774903620956856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baaf4cd67ddf56b%3A0x442567b7f7fda96a!2s17A%2F19%2C%20Thirunagar%2C%20Tiruchirappalli%2C%20Tamil%20Nadu%20620004!5e1!3m2!1sen!2sin!4v1770027509721!5m2!1sen!2sin"
+                    width="100%" height="120" style="border:0; border-radius:8px;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+
+        </div>
+        <hr>
+        <p class="copyright" style="padding-top:20px;">
+            &copy; 2026 Mohan Raj P | All Rights Reserved
+        </p>
+    </footer>
+</body>
+
+</html>
